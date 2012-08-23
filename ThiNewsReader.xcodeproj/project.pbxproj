@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B54CD715E6794B007765AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54CD615E6794B007765AC /* UIKit.framework */; };
+		D4B54CD915E6794B007765AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54CD815E6794B007765AC /* Foundation.framework */; };
+		D4B54CDB15E6794B007765AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54CDA15E6794B007765AC /* CoreGraphics.framework */; };
+		D4B54CE115E6794B007765AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CDF15E6794B007765AC /* InfoPlist.strings */; };
+		D4B54CE315E6794B007765AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B54CE215E6794B007765AC /* main.m */; };
+		D4B54CE715E6794B007765AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B54CE615E6794B007765AC /* AppDelegate.m */; };
+		D4B54CEA15E6794B007765AC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CE815E6794B007765AC /* MainStoryboard_iPhone.storyboard */; };
+		D4B54CED15E6794B007765AC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CEB15E6794B007765AC /* MainStoryboard_iPad.storyboard */; };
+		D4B54CF015E6794B007765AC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B54CEF15E6794B007765AC /* FirstViewController.m */; };
+		D4B54CF215E6794B007765AC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CF115E6794B007765AC /* first.png */; };
+		D4B54CF415E6794B007765AC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CF315E6794B007765AC /* first@2x.png */; };
+		D4B54CF715E6794B007765AC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B54CF615E6794B007765AC /* SecondViewController.m */; };
+		D4B54CF915E6794B007765AC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CF815E6794B007765AC /* second.png */; };
+		D4B54CFB15E6794B007765AC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B54CFA15E6794B007765AC /* second@2x.png */; };
+		D4B54D0315E6794B007765AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54D0215E6794B007765AC /* SenTestingKit.framework */; };
+		D4B54D0415E6794B007765AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54CD615E6794B007765AC /* UIKit.framework */; };
+		D4B54D0515E6794B007765AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B54CD815E6794B007765AC /* Foundation.framework */; };
+		D4B54D0D15E6794B007765AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4B54D0B15E6794B007765AC /* InfoPlist.strings */; };
+		D4B54D1015E6794B007765AC /* ThiNewsReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B54D0F15E6794B007765AC /* ThiNewsReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B54D0615E6794B007765AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B54CC915E6794B007765AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B54CD115E6794B007765AC;
+			remoteInfo = ThiNewsReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4B54CD215E6794B007765AC /* ThiNewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThiNewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B54CD615E6794B007765AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4B54CD815E6794B007765AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4B54CDA15E6794B007765AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4B54CDE15E6794B007765AC /* ThiNewsReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThiNewsReader-Info.plist"; sourceTree = "<group>"; };
+		D4B54CE015E6794B007765AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4B54CE215E6794B007765AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4B54CE415E6794B007765AC /* ThiNewsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThiNewsReader-Prefix.pch"; sourceTree = "<group>"; };
+		D4B54CE515E6794B007765AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4B54CE615E6794B007765AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4B54CE915E6794B007765AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D4B54CEC15E6794B007765AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D4B54CEE15E6794B007765AC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D4B54CEF15E6794B007765AC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D4B54CF115E6794B007765AC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D4B54CF315E6794B007765AC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D4B54CF515E6794B007765AC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D4B54CF615E6794B007765AC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D4B54CF815E6794B007765AC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D4B54CFA15E6794B007765AC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D4B54D0115E6794B007765AC /* ThiNewsReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThiNewsReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B54D0215E6794B007765AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4B54D0A15E6794B007765AC /* ThiNewsReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThiNewsReaderTests-Info.plist"; sourceTree = "<group>"; };
+		D4B54D0C15E6794B007765AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4B54D0E15E6794B007765AC /* ThiNewsReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThiNewsReaderTests.h; sourceTree = "<group>"; };
+		D4B54D0F15E6794B007765AC /* ThiNewsReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThiNewsReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B54CCF15E6794B007765AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54CD715E6794B007765AC /* UIKit.framework in Frameworks */,
+				D4B54CD915E6794B007765AC /* Foundation.framework in Frameworks */,
+				D4B54CDB15E6794B007765AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B54CFD15E6794B007765AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54D0315E6794B007765AC /* SenTestingKit.framework in Frameworks */,
+				D4B54D0415E6794B007765AC /* UIKit.framework in Frameworks */,
+				D4B54D0515E6794B007765AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B54CC715E6794B007765AC = {
+			isa = PBXGroup;
+			children = (
+				D4B54CDC15E6794B007765AC /* ThiNewsReader */,
+				D4B54D0815E6794B007765AC /* ThiNewsReaderTests */,
+				D4B54CD515E6794B007765AC /* Frameworks */,
+				D4B54CD315E6794B007765AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B54CD315E6794B007765AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54CD215E6794B007765AC /* ThiNewsReader.app */,
+				D4B54D0115E6794B007765AC /* ThiNewsReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B54CD515E6794B007765AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54CD615E6794B007765AC /* UIKit.framework */,
+				D4B54CD815E6794B007765AC /* Foundation.framework */,
+				D4B54CDA15E6794B007765AC /* CoreGraphics.framework */,
+				D4B54D0215E6794B007765AC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B54CDC15E6794B007765AC /* ThiNewsReader */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54CE515E6794B007765AC /* AppDelegate.h */,
+				D4B54CE615E6794B007765AC /* AppDelegate.m */,
+				D4B54CE815E6794B007765AC /* MainStoryboard_iPhone.storyboard */,
+				D4B54CEB15E6794B007765AC /* MainStoryboard_iPad.storyboard */,
+				D4B54CEE15E6794B007765AC /* FirstViewController.h */,
+				D4B54CEF15E6794B007765AC /* FirstViewController.m */,
+				D4B54CF115E6794B007765AC /* first.png */,
+				D4B54CF315E6794B007765AC /* first@2x.png */,
+				D4B54CF515E6794B007765AC /* SecondViewController.h */,
+				D4B54CF615E6794B007765AC /* SecondViewController.m */,
+				D4B54CF815E6794B007765AC /* second.png */,
+				D4B54CFA15E6794B007765AC /* second@2x.png */,
+				D4B54CDD15E6794B007765AC /* Supporting Files */,
+			);
+			path = ThiNewsReader;
+			sourceTree = "<group>";
+		};
+		D4B54CDD15E6794B007765AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54CDE15E6794B007765AC /* ThiNewsReader-Info.plist */,
+				D4B54CDF15E6794B007765AC /* InfoPlist.strings */,
+				D4B54CE215E6794B007765AC /* main.m */,
+				D4B54CE415E6794B007765AC /* ThiNewsReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4B54D0815E6794B007765AC /* ThiNewsReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54D0E15E6794B007765AC /* ThiNewsReaderTests.h */,
+				D4B54D0F15E6794B007765AC /* ThiNewsReaderTests.m */,
+				D4B54D0915E6794B007765AC /* Supporting Files */,
+			);
+			path = ThiNewsReaderTests;
+			sourceTree = "<group>";
+		};
+		D4B54D0915E6794B007765AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4B54D0A15E6794B007765AC /* ThiNewsReaderTests-Info.plist */,
+				D4B54D0B15E6794B007765AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B54CD115E6794B007765AC /* ThiNewsReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B54D1315E6794B007765AC /* Build configuration list for PBXNativeTarget "ThiNewsReader" */;
+			buildPhases = (
+				D4B54CCE15E6794B007765AC /* Sources */,
+				D4B54CCF15E6794B007765AC /* Frameworks */,
+				D4B54CD015E6794B007765AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThiNewsReader;
+			productName = ThiNewsReader;
+			productReference = D4B54CD215E6794B007765AC /* ThiNewsReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B54D0015E6794B007765AC /* ThiNewsReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B54D1615E6794B007765AC /* Build configuration list for PBXNativeTarget "ThiNewsReaderTests" */;
+			buildPhases = (
+				D4B54CFC15E6794B007765AC /* Sources */,
+				D4B54CFD15E6794B007765AC /* Frameworks */,
+				D4B54CFE15E6794B007765AC /* Resources */,
+				D4B54CFF15E6794B007765AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B54D0715E6794B007765AC /* PBXTargetDependency */,
+			);
+			name = ThiNewsReaderTests;
+			productName = ThiNewsReaderTests;
+			productReference = D4B54D0115E6794B007765AC /* ThiNewsReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B54CC915E6794B007765AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "The Hackerati, Inc.";
+			};
+			buildConfigurationList = D4B54CCC15E6794B007765AC /* Build configuration list for PBXProject "ThiNewsReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4B54CC715E6794B007765AC;
+			productRefGroup = D4B54CD315E6794B007765AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B54CD115E6794B007765AC /* ThiNewsReader */,
+				D4B54D0015E6794B007765AC /* ThiNewsReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B54CD015E6794B007765AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54CE115E6794B007765AC /* InfoPlist.strings in Resources */,
+				D4B54CEA15E6794B007765AC /* MainStoryboard_iPhone.storyboard in Resources */,
+				D4B54CED15E6794B007765AC /* MainStoryboard_iPad.storyboard in Resources */,
+				D4B54CF215E6794B007765AC /* first.png in Resources */,
+				D4B54CF415E6794B007765AC /* first@2x.png in Resources */,
+				D4B54CF915E6794B007765AC /* second.png in Resources */,
+				D4B54CFB15E6794B007765AC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B54CFE15E6794B007765AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54D0D15E6794B007765AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4B54CFF15E6794B007765AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B54CCE15E6794B007765AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54CE315E6794B007765AC /* main.m in Sources */,
+				D4B54CE715E6794B007765AC /* AppDelegate.m in Sources */,
+				D4B54CF015E6794B007765AC /* FirstViewController.m in Sources */,
+				D4B54CF715E6794B007765AC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B54CFC15E6794B007765AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B54D1015E6794B007765AC /* ThiNewsReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B54D0715E6794B007765AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B54CD115E6794B007765AC /* ThiNewsReader */;
+			targetProxy = D4B54D0615E6794B007765AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4B54CDF15E6794B007765AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B54CE015E6794B007765AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4B54CE815E6794B007765AC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B54CE915E6794B007765AC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B54CEB15E6794B007765AC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B54CEC15E6794B007765AC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B54D0B15E6794B007765AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B54D0C15E6794B007765AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4B54D1115E6794B007765AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B54D1215E6794B007765AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B54D1415E6794B007765AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThiNewsReader/ThiNewsReader-Prefix.pch";
+				INFOPLIST_FILE = "ThiNewsReader/ThiNewsReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4B54D1515E6794B007765AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThiNewsReader/ThiNewsReader-Prefix.pch";
+				INFOPLIST_FILE = "ThiNewsReader/ThiNewsReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4B54D1715E6794B007765AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThiNewsReader.app/ThiNewsReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThiNewsReader/ThiNewsReader-Prefix.pch";
+				INFOPLIST_FILE = "ThiNewsReaderTests/ThiNewsReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D4B54D1815E6794B007765AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThiNewsReader.app/ThiNewsReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThiNewsReader/ThiNewsReader-Prefix.pch";
+				INFOPLIST_FILE = "ThiNewsReaderTests/ThiNewsReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B54CCC15E6794B007765AC /* Build configuration list for PBXProject "ThiNewsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B54D1115E6794B007765AC /* Debug */,
+				D4B54D1215E6794B007765AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B54D1315E6794B007765AC /* Build configuration list for PBXNativeTarget "ThiNewsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B54D1415E6794B007765AC /* Debug */,
+				D4B54D1515E6794B007765AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4B54D1615E6794B007765AC /* Build configuration list for PBXNativeTarget "ThiNewsReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B54D1715E6794B007765AC /* Debug */,
+				D4B54D1815E6794B007765AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B54CC915E6794B007765AC /* Project object */;
+}
